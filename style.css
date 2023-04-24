@@ -46,6 +46,7 @@ body {
 .list-item, .title {
   list-style: none;
 }
+.task,
 .button-edit,
 .button-delete,
 .button-add {
@@ -133,6 +134,12 @@ body {
 }
 .button-delete .img-delete:hover {
   transform: rotateZ(0);
+}
+
+/* Completed */
+.list.completed .task.completed{
+    text-decoration: line-through;
+    color: #888;
 }
 
 /* Edit Task */

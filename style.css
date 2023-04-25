@@ -137,9 +137,19 @@ body {
 }
 
 /* Completed */
-.list.completed .task.completed{
+.list.completed .task{
     text-decoration: line-through;
     color: #888;
+}
+
+.list-item.completed.edit-mode .task{
+    text-decoration: none;
+    color: #333;
+}
+
+.list-item.edit-mode .task{
+    text-decoration: none;
+    color: #333;
 }
 
 /* Edit Task */

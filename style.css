@@ -43,7 +43,8 @@ body {
   margin: 0;
   padding: 0px;
 }
-.list-item, .title {
+.list-item, 
+.title {
   list-style: none;
 }
 .task,
@@ -66,12 +67,13 @@ body {
 .button-edit:hover,
 .button-delete:hover, 
 .button-add:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
 
-.title, .label{
+.title, 
+.label{
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -80,14 +82,15 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.task.input, .task.add {
+.task.input, 
+.task.add {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
